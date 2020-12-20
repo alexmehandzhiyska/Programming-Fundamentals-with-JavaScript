@@ -40,28 +40,3 @@ function solve(arr) {
         kvp[1].forEach((email) => console.log(`- ${email}`));
     });
 }
-
-// solve([
-//     'Add->Mike',
-//     'Add->George',
-//     'Send->George->Hello World',
-//     'Send->George->Your loan is overdue',
-//     'Add->Mike',
-//     'Send->Mike->Hello, do you want to meet up tomorrow?',
-//     'Delete->Peter',
-//     "Send->George->I'm busy",
-//     'Send->Mike->Another random test mail',
-//     'Delete->George',
-//     'Statistics',
-// ]);
-
-solve([
-    'Add->Mike',
-    'Add->George',
-    'Send->George->Hello World',
-    'Send->George->Some random test mail',
-    'Send->Mike->Hello, do you want to meet up tomorrow?',
-    'Send->George->It would be a pleasure',
-    'Send->Mike->Another random test mail',
-    'Statistics',
-]);
